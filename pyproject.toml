@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hannover-pylon"
+version = "0.1.0"
+description = ""
+authors = ["Yacine Bel-Hadj <yacine.bel-hadj@vub.be>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dynaconf = "^3.2.6"
+pyrootutils = "^1.0.4"
+scipy = "^1.14.1"
+pandas = "^2.2.3"
+h5py = "^3.12.1"
+matplotlib = "^3.9.2"
+torch = "^2.4.1"
+torchaudio = "^2.4.1"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
